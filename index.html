@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Shopping-mall Mini-game</title>
+    <meta name="description" content="shopping mall mini game" />
+    <meta name="author" content="woohyun" />
+    <link rel="icon" type="image/png" href="img/logo.png" />
+    <script defer src="src/main.js"></script>
+  </head>
+  <body>
+    <!-- logo -->
+    <a href="#">
+      <img src="img/logo.png" alt="logo" class="logo" />
+    </a>
+
+    <!-- buttons -->
+    <section class="buttons">
+      <button class="btn _t">
+        <img
+          src="img/blue_t.png"
+          alt="tshirt"
+          class="imgBtn"
+          data-key="type"
+          data-value="tshirt"
+        />
+      </button>
+      <button class="btn _p">
+        <img
+          src="img/blue_p.png"
+          alt="pants"
+          class="imgBtn"
+          data-key="type"
+          data-value="pants"
+        />
+      </button>
+      <button class="btn _s">
+        <img
+          src="img/blue_s.png"
+          alt="skirt"
+          class="imgBtn"
+          data-key="type"
+          data-value="skirt"
+        />
+      </button>
+      <button class="btn colorBtn blue" data-key="color" data-value="blue">
+        blue
+      </button>
+      <button class="btn colorBtn yellow" data-key="color" data-value="yellow">
+        Yellow
+      </button>
+      <button class="btn colorBtn pink" data-key="color" data-value="pink">
+        Pink
+      </button>
+    </section>
+
+    <!-- Items -->
+    <ul class="items"></ul>
+  </body>
+</html>
